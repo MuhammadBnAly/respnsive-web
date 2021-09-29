@@ -1,0 +1,185 @@
+body {
+    margin: 0px;
+}
+
+.section1-bg {
+    background-image: url("images/im3.jpg");
+    padding-bottom: 50px;
+    background-size: cover;
+}
+
+.section1-bg .row {
+    padding-top: 140px;
+}
+
+@media only screen and (max-width:400px) {
+    .section1-bg .row {
+        padding-top: 10px;
+    }
+    .section1-bg .row p {
+        margin-bottom: 20px;
+    }
+}
+
+.linking-pages {
+    background-color: #202042;
+    color: white;
+    text-decoration: none;
+    padding: 15px 25px;
+    width: 200px;
+    text-align: center;
+}
+
+.head2_txt {
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+
+/* .section1-bg .row p {
+} */
+
+.head_txt {
+    color: blue;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+.just_txt {
+    font-size: large;
+    margin-bottom: 40px;
+}
+
+.just_txt_2 {
+    font-size: 24px;
+}
+
+.between_sections {
+    margin: 100px 0px;
+}
+
+.section-3 .just_txt {
+    color: white;
+}
+
+.section-3 .head_txt {
+    color: white;
+}
+
+.section-3 .just_txt_2 {
+    color: white;
+}
+
+.section-3 h1 {
+    color: white;
+}
+
+ul,
+li {
+    text-decoration: none;
+}
+
+.center-bg {
+    background-image: url("images/im15.png");
+    padding-bottom: 50px;
+    background-size: cover;
+}
+
+.center-bg p {
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 80px;
+}
+
+.cosos {
+    padding: 20px;
+}
+
+ul,
+li {
+    list-style-type: none;
+}
+
+.foots {
+    background-image: url("images/im14.jpg");
+    background-size: cover;
+    padding: 100px 0px 0px 0px;
+    color: white;
+}
+
+.copyright {
+    padding: 50px;
+}
+
+.copyright p {
+    width: 80%;
+    float: left;
+}
+
+.copyright img {
+    float: right;
+    padding: 5px;
+}
+
+.copyright span {
+    color: #fd0;
+}
+
+.info_about {
+    background-image: url("images/im11.png");
+    background-size: cover;
+    margin: 0px;
+    color: white;
+    padding: 100px;
+}
+
+
+/* 
+ */
+
+.sec3 {
+    background-color: #ECF2FE;
+}
+
+.myform {
+    background-color: #3A58FF;
+    color: white;
+    padding: 70px;
+    top: 60px;
+    position: relative;
+    box-shadow: 16px 16px 14px #27262d3b;
+    border-radius: 2%;
+}
+
+.sec3 .addresofsection {
+    margin-right: 0;
+}
+
+.sec3 .addresofsection div {
+    background-color: white;
+    margin-left: 2px;
+}
+
+.sec3 .addresofsection span {
+    color: white;
+}
+
+.sec3 input {
+    color: #183153;
+}
+
+.sec3 label {
+    color: #2b2828;
+}
+
+.sec3 button {
+    background-color: #183153;
+    color: white;
+}
+
+@media (max-width:768px) {
+    .sec3 .myform {
+        top: 2px;
+    }
+}
